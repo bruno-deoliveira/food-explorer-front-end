@@ -1,11 +1,14 @@
-import "./styles.css";
+import { Container } from "./styles";
+import { Button } from "../../components/Button";
 
 export function Dish () {
   
   return (
-    <div>
+    <Container>
       <h1>Hello World!</h1>
       <span>Bruno Oliveira</span>
-    </div>
+
+      <Button title="clique aqui!"/>
+    </Container>
   );
 }
