@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, Content } from "./styles";
 
 import { Header } from "../../components/Header"
 import { Button } from "../../components/Button";
@@ -12,7 +12,8 @@ export function Dish () {
     <Container>
       <Header />
 
-    
+      <main>
+        <Content>
           <ButtonText title="excluir nota" />
 
           <Section>
@@ -26,9 +27,10 @@ export function Dish () {
           <Section>
             <Tag title="express" />
           </Section>
-          <Button  title="Editar prato"/>
-      
-
+          
+          <Button title="Editar prato" />
+        </Content>
+      </main>
     </Container>
   );
 }

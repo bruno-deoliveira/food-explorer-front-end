@@ -10,6 +10,19 @@ export const Container = styled.div`
     "header"
     "content"
     "footer";
+
+    >main {
+      grid-area:  content;
+      overflow-y: scroll;
+      padding: 64px 0;
+    }
 `;
 
+export const Content = styled.div`
+  max-width: 550px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+`
 
