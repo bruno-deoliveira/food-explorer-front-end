@@ -27,7 +27,7 @@ export function Dish () {
           <Section>
             <Tag title="express" />
           </Section>
-          
+
           <Button title="Editar prato" />
         </Content>
       </main>
