@@ -1,4 +1,4 @@
-import { Container, Brand, Menu, Search, Content, NewNote } from "./styles";
+import { Container, Content } from "./styles";
 
 import { Header } from "../../components/Header";
 
@@ -11,7 +11,9 @@ export function Home() {
 
       <Header />
 
-      <Menu></Menu>
+      <Menu>
+        <ButtonText title="pedido"/>
+      </Menu>
 
       <Search></Search>
 
