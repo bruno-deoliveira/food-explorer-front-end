@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.header`
   grid-area: header;
@@ -59,7 +59,6 @@ export const Menu = styled.button`
   }
 `;
 
-
 export const Brand = styled.div`
   width: 100%;
   display: flex;
@@ -86,8 +85,5 @@ export const Logout = styled.button`
   display: flex;
   align-items: center;
 
-  > svg {
-    color: ${({ theme }) => theme.COLORS.WHITE};
-    font-size: 3.2rem;
-  }
+  color: ${({ theme }) => theme.COLORS.WHITE};
 `;

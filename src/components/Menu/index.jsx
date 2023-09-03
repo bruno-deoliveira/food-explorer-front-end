@@ -1,3 +1,6 @@
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../hooks/auth";
+
 import { Container } from "./styles";
 
 import { Header } from "../../components/Header";

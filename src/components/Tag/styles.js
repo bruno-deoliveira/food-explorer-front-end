@@ -9,7 +9,3 @@ export const Container = styled.span`
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_400};
 `;
-
-export const Content = styled.div `
-
-`;
