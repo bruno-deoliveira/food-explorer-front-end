@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 - add folders on the SRC
 - add folders on the SRC
 - explorer
+- food
